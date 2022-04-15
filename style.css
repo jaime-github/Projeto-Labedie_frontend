@@ -1,0 +1,93 @@
+/* Exercicio 1 */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+
+header{
+    background-color: mediumvioletred;
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    align-items: center;
+    padding: 10px 10px;
+}
+button{
+    padding: 0px 10px;
+}
+
+main{
+    display: flex;
+
+    flex-grow: 1;
+}
+
+.logo-confeitaria{
+    display: flex;
+}
+.logo-confeitaria img{
+    margin: 0px 15px ;
+}
+#menu-confeitaria{
+    background-color: #f2d0e0;
+    width: 300px;
+}
+section{
+    background-color: white;
+    flex-grow: 1;
+}
+
+#menu-confeitaria{
+    padding: 15px 15px;
+}
+.botoes-menu p{
+    text-align: left;
+    padding-left: 15px;
+    width: 100%;
+}
+.botoes-menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+    font-weight: bold;
+}
+#container-produtos{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.botoes-menu img{
+    width: 15px;
+}
+.bolo-chocolate{
+    width: 225px;
+    box-shadow: 3px 3px 3px darkgray ;
+    margin: 10px;
+    text-align: center;
+    
+}
+.bolo-chocolate h3{
+    padding: 4px 0px 15px;
+}
+.bolo-chocolate p{
+    padding: 0px 3px 10px;
+}
+.foto-bolo{
+    width: 100%;
+}
+
+footer{
+    background-color: mediumvioletred;
+}
+footer p{
+    text-align: center;
+    padding: 20px 0px;
+    font-weight: bold;
+}
